@@ -7,7 +7,7 @@ module Bundler
 
     def run
       program :name, 'bundler-commentator'
-      program :version, '1.0.0'
+      program :version, '1.0.2'
       program :description, 'Comment your Gemfile with descriptions from RubyGems.org'
 
       command :comment do |c|
