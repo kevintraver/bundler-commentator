@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/bundler/commentator'
+Bundler::Commentator::new.run
