@@ -36,8 +36,9 @@ module Bundler
                   end
                 end
               rescue Exception
+              ensure
+                output_buffer << line
               end
-              output_buffer << line
             end
           end
           say "Writing commented Gemfile to: #{options.output_path}"
