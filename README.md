@@ -49,4 +49,5 @@ highly recommend first using [bundler-reorganizer](https://github.com/wireframe/
 `--output_path "path/to/commented/Gemfile"`
 
 ## TODO
+* Intelligently truncate *really* long comments
 * Ability to leave existing comments
